@@ -5,7 +5,7 @@ public class Main {
         int topUpAmount = 300; // сумма пополнения
 
         int bonus;
-        if (topUpAmount >= 500) {
+        if (topUpAmount >= 1000) {
             bonus = topUpAmount / 100;
         } else {
             bonus = 0;
